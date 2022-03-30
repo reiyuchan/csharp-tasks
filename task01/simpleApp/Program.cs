@@ -158,7 +158,7 @@ namespace SimpleGPACalc
 
             return result;
         }
-        public async void print()
+        public void print()
         {
             System.Console.WriteLine("ID: {0}\n\nName: {1}\n\nWork-Hours: {2}\n\nDepartment: {3}\n\nSalary: {4}", this.id, this.name, this.hrs, this.department,this.salary());
         }
