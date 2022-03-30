@@ -145,15 +145,15 @@ namespace SimpleGPACalc
         }
         public double salary()
         {
-            double curr = 50;
+            double payPerHr = 50;
             double result = 0;
             double yearly = this.hrs;
             yearly *= 365.25;
             for (int i = 0; i < yearly; i++)
             {
-                result += curr;
+                result += payPerHr;
                 if (this.hrs > 8)
-                    result += (curr * 1.5);
+                    result += (payPerHr * 1.5);
             }
 
             return result;
