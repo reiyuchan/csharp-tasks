@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
 
-namespace SimpleGPACalc
+namespace simpleApp
 {
     public class Program
     {
